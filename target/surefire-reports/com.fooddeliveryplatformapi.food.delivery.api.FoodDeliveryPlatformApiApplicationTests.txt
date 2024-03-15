@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.fooddeliveryplatformapi.food.delivery.api.FoodDeliveryPlatformApiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.81 s -- in com.fooddeliveryplatformapi.food.delivery.api.FoodDeliveryPlatformApiApplicationTests
