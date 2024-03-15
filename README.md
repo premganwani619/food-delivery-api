@@ -47,3 +47,5 @@ The system is structured with clear separation of concerns, facilitating maintai
 ## Swagger UI
 Explore our APIs using Swagger UI:
 [Swagger UI](https://food-delivery-apis-yt3r.onrender.com/swagger-ui/index.html)
+
+<img width="944" alt="Screenshot 2024-03-16 003526" src="https://github.com/premganwani619/food-delivery-apis/assets/83330321/ea517602-51ee-4afd-a37d-b448d1350e55">
