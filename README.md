@@ -44,8 +44,36 @@ Our food delivery platform offers efficient management of admin and user operati
 
 The system is structured with clear separation of concerns, facilitating maintainability and scalability. For more details, refer to the source code and accompanying documentation.
 
-## Swagger UI
-Explore our APIs using Swagger UI:
-[Swagger UI](https://food-delivery-apis-yt3r.onrender.com/swagger-ui/index.html)
+## Installation and Setup
+
+### Prerequisites
+- JDK (Java Development Kit) installed on your machine.
+- Maven installed for dependency management.
+- MySQL database server running and accessible.
+
+### Installation Steps
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/premganwani619/food-delivery-apis.git
+   ```
+
+2. **Build the Project:**
+   ```bash
+   mvn clean install
+   ```
+
+3. **Configure Database:**
+   - Open `application.properties`.
+   - Set database connection properties (`spring.datasource.url`, `spring.datasource.username`, `spring.datasource.password`, `spring.datasource.driver-class-name`) according to your setup.
+
+4. **Run the Application:**
+   ```bash
+   java -jar target/food-delivery-api.jar
+   ```
+
+5. **Access Swagger UI:**
+   - Open a web browser and navigate to [Swagger UI](https://food-delivery-apis-yt3r.onrender.com/swagger-ui/index.html) to explore and interact with the APIs.
+   - Alternatively, after running the application, Swagger UI is accessible at `http://localhost:8080/swagger-ui/index.html`.
 
 <img width="944" alt="Screenshot 2024-03-16 003526" src="https://github.com/premganwani619/food-delivery-apis/assets/83330321/ea517602-51ee-4afd-a37d-b448d1350e55">
+```
